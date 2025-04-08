@@ -10,5 +10,6 @@ jobs:
     steps:
       - name: ...
         run: |
+          : meh
           echo "::add-mask::Mona The Octocat"
 
