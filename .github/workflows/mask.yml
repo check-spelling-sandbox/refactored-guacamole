@@ -11,5 +11,7 @@ jobs:
       - name: ...
         run: |
           : meh
-          echo "::add-mask::Mona The Octocat"
+          x="Mona The Octocat $((RANDOM))"
+          echo "::add-mask::$x"
+          echo "$x"
 
